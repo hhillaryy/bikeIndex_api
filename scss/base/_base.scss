@@ -12,8 +12,16 @@
 html, body {
   padding: 0px;
   margin: 0px;
+  height: 1000px; margin: 0; padding: 0;
 }
 
+body {
+  
+  #map {
+     height: 300px;
+     width: 300px;
+   }
+}
 
 /**
  * Basic styles for links

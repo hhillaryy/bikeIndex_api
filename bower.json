@@ -1,9 +1,9 @@
 {
-  "name": "nodetemplate",
+  "name": "bike_api",
   "description": "",
   "main": "gulpfile.js",
   "authors": [
-    "Taylor Pokoj <pokojt@gmail.com>"
+    "Hillary & Timmi <hillary07@gmail.com>"
   ],
   "license": "ISC",
   "moduleType": [],
