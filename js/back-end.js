@@ -1,7 +1,7 @@
 
 
 exports.displayBikeInfo = function(colors, city){
-
+  $('#results').empty();
   $.get("https://bikeindex.org:443/api/v2/bikes_search/stolen?page=1&colors=" + colors + "&proximity=" + city + "&access_token=api_key").then(function(response){
     $('#results').append("<h2>These are the " + colors + " bikes in " + city + " that match your search criteria.</h2>");
 

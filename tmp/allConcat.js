@@ -12,8 +12,8 @@ $(document).ready(function() {
   $('#locateBike').click(function(){
     var city = $('#bikeLoc').val();
     var colors = $('#bikeColor').val();
-    // $('#bikeLoc').val('');
-    // $('#bikeColor').val('');
     displayBikeInfo(colors, city);
+    $('#bikeLoc').val('');
+    $('#bikeColor').val('');
   });
 });
